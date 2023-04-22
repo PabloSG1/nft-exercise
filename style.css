@@ -119,3 +119,37 @@ a {
 a:hover {
     color: brown;
 }
+
+@media screen and (max-width: 945px) {
+    .card {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .card {
+        width: 50vw;
+        height: auto;
+    }
+
+    .paradox {
+        width: 40vw;
+        height: 25vh;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .card {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .card {
+        width: 90vw;
+    }
+
+    .paradox {
+        width: 60vw;
+    }
+}
